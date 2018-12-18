@@ -1,0 +1,366 @@
+/* Body */
+body {
+  font-family: 'Poppins', sans-serif !important;
+  color: white !important;
+}
+/* Poppins */
+.my-font {
+  font-family: 'Poppins', sans-serif;
+}
+/* Title Font */
+.my-title-font {
+  font-family: 'Major Mono Display', monospace;
+  color: #117bfb;
+  font-size: 30px;
+}
+.my-title-font:hover {
+  color: #ffffff;
+}
+/* Navbar */
+.navbar-my {
+  background-color: rgba(1, 3, 18, 1) !important;
+}
+/* Nav link */
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: #117bfb !important;
+}
+/* Navigation Button */
+.navbar-toggler {
+  background-color: #117bfb !important;
+  border-color: white !important;
+}
+.navbar-toggler-icon {
+  color: white !important;
+  font-size: 25px;
+  height: 1em !important;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+/* Title Background */
+.my-title-back-img {
+  background-image: url("./../img/back1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-shadow: 0px 2px 30px rgba(0, 0, 0, 1);
+  height: 91vh;
+}
+.my-title-back-color {
+  background-color: rgba(1, 3, 18, 0.1) !important;
+  height: 91vh;
+}
+/* Title */
+.my-title-container {
+  padding-top: 170px !important;
+}
+.my-title {
+  padding: 10px 0;
+  font-weight: 900 !important;
+}
+/* Title Social Link */
+.my-title-social > a {
+  color: #117bfb;
+  font-size: 1.5rem;
+  padding: 0px 14px;
+}
+.my-title-social > a:hover{
+  font-size: 2rem;
+}
+/* Ttile Button Round */
+.btn-round {
+  border-radius: 20px !important;
+}
+/* Button Blue */
+.btn-primary {
+  background-color: #117bfb !important;
+}
+.btn-primary:hover {
+  background-color: #ffffff !important;
+  color: #117bfb !important;
+}
+/* About Color */
+.my-about-back-color {
+  background-color: rgba(1, 3, 18, 1) !important;
+  min-height: 100vh;
+}
+/* About */
+.my-about > h1 {
+  line-height: 80px;
+}
+.my-about > span {
+  line-height: 25px;
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+.my-about-sub > div > span {
+  color: #117bfb !important;
+  font-size: 0.9rem;
+}
+.my-about-sub > div > p {
+  color: #ffffff !important;
+  font-size: 0.9rem;
+}
+/* About Hr Line */
+.my-about-line {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+/* Button Dark */
+.btn-dark {
+  background-color: rgba(1, 3, 18, 1) !important;
+  border-color: #ffffff !important;
+  border-width: 2px !important;
+  padding: 8px !important;
+}
+.btn-dark:hover {
+  background-color: #ffffff !important;
+  color: rgba(1, 3, 18, 1) !important;
+}
+/* About Me Image */
+.my-img {
+  -webkit-box-shadow: 12px 10px 91px -39px rgba(255,255,255,1);
+  -moz-box-shadow: 12px 10px 91px -39px rgba(255,255,255,1);
+  box-shadow: 12px 10px 91px -39px rgba(255,255,255,1);
+}
+/* Skills */
+.my-skill-back, .my-project-back {
+  background-color: #f6f6f6 !important;
+  min-height: 100vh;
+}
+.my-skill-title, .my-project-title, .my-contact-title {
+  color: #117bfb !important;
+  font-weight: 900;
+}
+.my-skill-card {
+  background-color: #010312 !important;
+  -webkit-box-shadow:0px 0px 26px 2px #e3e3e3 ;
+  -moz-box-shadow:0px 0px 26px 2px #e3e3e3 ;
+  box-shadow:0px 0px 26px 2px #e3e3e3 ;
+}
+/* Corner Border */
+.my-skill-card:before, .my-skill-card>:first-child:before {
+    position:absolute;
+    width: 30px; height: 30px;
+    border-color: #117bfb;
+    border-style: solid;
+    content: ' ';
+}
+.my-skill-card:before {
+  top: 16px;
+  left: 16px;
+  border-width: 2px 0 0 2px;
+}
+.my-skill-card>:first-child:before {
+  bottom: 16px;
+  right: 16px;
+  border-width: 0 2px 2px 0;
+}
+.my-skill-card > span {
+  font-size: 40px;
+}
+.my-skill-card > hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1.4px solid #fff;
+  margin: 1em auto;
+  padding: 0;
+  width: 50px;
+}
+/* Skill Line */
+.my-skill-line-1, .my-project-line-1 {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1.4px solid #787878;
+  margin: 0.3em auto;
+  padding: 0;
+  width: 50px;
+}
+.my-skill-line-2, .my-project-line-2 {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1.4px solid #787878;
+  margin: 0.3em auto;
+  padding: 0;
+  width: 90px;
+}
+/* Education Back */
+.my-education-back {
+  background-color: #010312 !important;
+  min-height: 70vh;
+}
+.my-education-title {
+  color: #117bfb !important;
+  font-weight: 900;
+}
+/* Education Line */
+.my-education-line-1 {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1.4px solid #fff;
+  margin: 0.3em auto;
+  padding: 0;
+  width: 50px;
+}
+.my-education-line-2 {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1.4px solid #fff;
+  margin: 0.3em auto;
+  padding: 0;
+  width: 90px;
+}
+/* Education card */
+.my-education-card {
+  border: 1px solid #117bfb;
+}
+.my-education-img {
+  font-size: 80px;
+  margin-top: -70px !important;
+}
+.my-education-img > i {
+  background-color: #010312 !important;
+}
+.my-education-degree {
+  font-weight: 600;
+}
+.my-education-year {
+  font-size: 0.8rem;
+}
+.my-education-name {
+  font-size: 0.9rem;
+}
+/* Project Card */
+.my-project-card {
+  -webkit-box-shadow: 0px 0px 35px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 35px -7px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 35px -7px rgba(0,0,0,0.75);
+}
+.my-project-card > div {
+  width: 100%;
+  background-color: #fff;
+  color: #a2a2a2;
+}
+/* Contact Back */
+.my-contact-back {
+  background-color: #010312 !important;
+  min-height: 60vh;
+}
+.my-contact-card-1 {
+  background-color: #010312 !important;
+  -webkit-box-shadow: 0px 0px 34px -2px rgba(255,255,255,0.81);
+  -moz-box-shadow: 0px 0px 34px -2px rgba(255,255,255,0.81);
+  box-shadow: 0px 0px 34px -2px rgba(255,255,255,0.81);
+}
+/* Corner Border */
+.my-contact-card-1:before, .my-contact-card-1>:first-child:before {
+    position:absolute;
+    width: 30px; height: 30px;
+    border-color: #117bfb;
+    border-style: solid;
+    content: ' ';
+}
+.my-contact-card-1:before {
+  top: 16px;
+  left: 16px;
+  border-width: 2px 0 0 2px;
+}
+.my-contact-card-1>:first-child:before {
+  bottom: 16px;
+  right: 16px;
+  border-width: 0 2px 2px 0;
+}
+.my-contact-card-1 > span {
+  font-size: 30px;
+}
+.my-contact-card-1 > p {
+  line-height: 30px;
+}
+/* Contact Card 2 */
+.my-contact-card-2 {
+  background-color: #117bfb !important;
+  -webkit-box-shadow: 0px 0px 34px -2px rgba(255,255,255,0.81);
+  -moz-box-shadow: 0px 0px 34px -2px rgba(255,255,255,0.81);
+  box-shadow: 0px 0px 34px -2px rgba(255,255,255,0.81);
+}
+/* Corner Border */
+.my-contact-card-2:before, .my-contact-card-2>:first-child:before {
+    position:absolute;
+    width: 30px; height: 30px;
+    border-color: #ffffff;
+    border-style: solid;
+    content: ' ';
+}
+.my-contact-card-2:before {
+  top: 16px;
+  left: 16px;
+  border-width: 2px 0 0 2px;
+}
+.my-contact-card-2>:first-child:before {
+  bottom: 16px;
+  right: 16px;
+  border-width: 0 2px 2px 0;
+}
+.my-contact-card-2 > span {
+  font-size: 30px;
+}
+.my-contact-card-2 > p {
+  line-height: 30px;
+}
+/* Facebook */
+.facebook-s:hover {
+  color: #3C5A99 !important;
+}
+/* Twitter */
+.twitter-s:hover {
+  color: #1DA1F2 !important;
+}
+/* Instagram */
+.instagram-s:hover {
+  color: #fb3958 !important;
+}
+/* Linkedin */
+.linkedin-s:hover {
+  color: #0077B5 !important;
+}
+/* Gitlab */
+.gitlab-s:hover {
+  color: #FC6D27 !important;
+}
+/* Footer */
+.my-footer-back-img {
+  background-image: url("./../img/back2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 170px;
+}
+.my-footer-back-color {
+  background-color: rgba(1, 3, 18, 0.3) !important;
+  height: 170px;
+}
+.my-footer-container {
+  padding-top: 40px !important;
+}
+.my-footer-social > a {
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 0px 14px;
+}
+.my-footer-content {
+  font-size: 1.1rem;
+  line-height: 40px;
+}
